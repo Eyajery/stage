@@ -1,0 +1,24 @@
+input{
+    display:inline-block;
+    width:200px;
+    padding:6px;
+    border-radius: 10px;
+ box-shadow:1px 1px 1px #4b3fcd inset;
+ }
+ button{
+    
+        background-color:#1f4b77;
+        color:#FFFFFF;
+        padding:6px 20px 6px 20px;
+        border:none;
+        cursor:pointer;
+        padding:10px;
+        width:160px;
+        margin-left: 400px;
+     
+ }
+ label{
+       font-family:"cursive";
+        font-weight:"bold";
+       font-size:"15px";
+ }

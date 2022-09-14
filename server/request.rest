@@ -1,0 +1,21 @@
+GET http://localhost:5000/users
+###
+POST  http://localhost:5000/register
+Content-Type: application/json 
+
+{
+    "name": "M Fikri",
+    "email": "email@email.com",
+     "password": "123456",
+     "confPassword": "123456",
+}
+###
+POST  http://localhost:5000/connecter
+Content-Type: application/json 
+
+{
+    
+    "email": "email@email.com",
+     "password": "123456",
+   
+}

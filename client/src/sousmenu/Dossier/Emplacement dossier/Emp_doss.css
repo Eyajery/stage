@@ -1,0 +1,33 @@
+.corps_emp{
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+}
+.left_emp{
+    margin: auto;
+    margin-top: 25px;
+    margin-left: 25px;
+    display: block;
+    float: left;
+}
+#select{
+    width: 172px;
+}
+label{
+  display: block;
+  width: 110px;
+  height: 25px;
+  float: left;
+ }
+br{
+ clear: both;
+}
+.tab1{
+    margin: auto;
+    margin-top: 20px;
+}
+.btn{
+    background-color:#6e5244;
+    width:100px;
+    margin: auto;
+    margin-left: 25px;
+}

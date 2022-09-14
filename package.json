@@ -1,0 +1,43 @@
+{
+  "name": "stagedev",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.18.0",
+    "npm": "8.13.1"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "webpack",
+    "heroku-postbuild": "echo Skip build on Heroku",
+    "heroku-prebuild": "echo This runs before Heroku installs dependencies.",
+    "heroku-cleanup": "echo This runs after Heroku prunes and caches dependencies."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/islemmans/Gestion_factures.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/islemmans/Gestion_factures/issues"
+  },
+  "homepage": "https://github.com/islemmans/Gestion_factures#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "mysql2": "^2.3.3",
+    "react-bootstrap": "^2.5.0",
+    "react-scripts": "^5.0.1",
+    "scripts": "^0.1.0",
+    "sequelize": "^6.21.3"
+  },
+  "heroku-run-build-script": true,
+  "devDependencies": {
+    "webpack-cli": "^4.10.0"
+  }
+}
